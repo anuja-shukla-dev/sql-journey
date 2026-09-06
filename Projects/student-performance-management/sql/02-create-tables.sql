@@ -1,0 +1,23 @@
+USE topper_sql;
+
+CREATE TABLE students(
+student_id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(100) NOT NULL,
+email VARCHAR(100) UNIQUE NOT NULL,
+age INT CHECK (age>=18) NOT NULL,
+gender ENUM('Male', 'Female', 'Other'),
+course VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE courses(
+course_id INT AUTO_INCREMENT PRIMARY KEY,
+course_name VARCHAR(100) NOT NULL,
+course_duration INT NOT NULL
+);
+
+CREATE TABLE teachers(
+teacher_id INT AUTO_INCREMENT PRIMARY KEY,
+teacher_name VARCHAR(100) NOT NULL,
+email VARCHAR(100) UNIQUE NOT NULL,
+subject VARCHAR(100) NOT NULL
+);
