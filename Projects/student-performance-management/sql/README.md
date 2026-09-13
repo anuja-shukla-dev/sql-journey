@@ -67,6 +67,31 @@ Queries are written for:
 - Marks
 - Enrollments
 
+### 05-aggregate-groupby-queries.sql
+
+Contains queries using aggregate functions and `GROUP BY` to analyze project data.
+
+Concepts currently practiced:
+
+- COUNT()
+- SUM()
+- AVG()
+- MAX()
+- MIN()
+- DISTINCT
+- GROUP BY
+- Aggregate functions with WHERE
+- Aggregate functions with arithmetic
+- ROUND()
+
+Queries are written for:
+
+- Student statistics
+- Course statistics
+- Enrollment statistics
+- Marks analysis
+- Gender-based analysis
+
 ## ▶️ Execution Order
 
 Run the scripts in the following order:
@@ -75,6 +100,7 @@ Run the scripts in the following order:
 2. `02-create-tables.sql`
 3. `03-insert-tables.sql`
 4. `04-basic-queries.sql`
+5. `05-aggregate-groupby-queries.sql`
 
 This order ensures that the database and tables exist before data is inserted and queried.
 
@@ -82,8 +108,6 @@ This order ensures that the database and tables exist before data is inserted an
 
 As I learn more SQL concepts, additional scripts will be added to this folder, such as:
 
-- Aggregate Functions
-- GROUP BY
 - HAVING
 - JOINs
 - Subqueries
