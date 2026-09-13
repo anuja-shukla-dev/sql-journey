@@ -25,7 +25,8 @@ student-performance-management/
 │   ├── 01-create-database.sql
 │   ├── 02-create-tables.sql
 │   ├── 03-insert-tables.sql
-│   └── 04-basic-queries.sql
+│   ├── 04-basic-queries.sql
+│   └── 05-aggregate-groupby-queries.sql
 │
 └── README.md
 
@@ -116,10 +117,23 @@ Columns:
 - WHERE
 - BETWEEN
 - ORDER BY
+- ASC / DESC
 - AND / OR
 - ALTER TABLE
 - Foreign Keys
 - ON DELETE CASCADE
+- SQL Functions
+- String Functions
+- Numeric Functions
+- Date and Time Functions
+- Aggregate Functions
+- COUNT()
+- SUM()
+- AVG()
+- MAX()
+- MIN()
+- DISTINCT
+- GROUP BY
 - Relational Database Design
 
 ## 📊 Current Dataset
@@ -135,29 +149,54 @@ The database currently contains sample data for:
 
 ## 🔎 Current Queries
 
-The `04-basic-queries.sql` file contains basic queries for:
+The project currently contains queries for:
+
+### Basic Queries
+
+The `04-basic-queries.sql` file contains queries for:
 
 - Displaying records
 - Selecting specific columns
 - Filtering records using `WHERE`
 - Filtering using `BETWEEN`
+- Combining conditions using `AND / OR`
 - Sorting records using `ORDER BY`
-- Filtering students, courses, teachers, marks, and enrollments
+- Sorting using `ASC / DESC`
+
+Queries are written for students, courses, teachers, marks, and enrollments.
+
+### Aggregate and GROUP BY Queries
+
+The `05-aggregate-groupby-queries.sql` file contains queries for:
+
+- Counting records using `COUNT()`
+- Calculating totals using `SUM()`
+- Calculating averages using `AVG()`
+- Finding maximum values using `MAX()`
+- Finding minimum values using `MIN()`
+- Using `DISTINCT`
+- Grouping data using `GROUP BY`
+- Filtering grouped analysis using `WHERE`
+- Performing calculations using aggregate functions
+- Rounding values using `ROUND()`
+
+These queries are used to analyze student, course, enrollment, and marks data.
 
 ## 🚀 Future Improvements
 
 As I learn more SQL concepts, I will extend this project with:
 
-- Aggregate Functions
-- GROUP BY
 - HAVING
 - JOINs
 - Subqueries
 - Advanced analytical queries
 - More meaningful performance reports
+- Additional SQL scripts as the project grows
 
 ## 🎯 Purpose
 
 This project is part of my SQL learning journey and is focused on learning by building a practical relational database rather than only practicing isolated SQL queries.
 
-The project will be continuously improved as my SQL skills grow.
+The project is intentionally growing alongside my SQL knowledge. Each new SQL concept I learn gives me an opportunity to add new queries and improve the project.
+
+More features and SQL concepts will be added as my learning continues.
