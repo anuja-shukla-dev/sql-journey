@@ -1,4 +1,3 @@
-```markdown
 # SQL Day 7 — Transactions
 
 ## 📌 Overview
