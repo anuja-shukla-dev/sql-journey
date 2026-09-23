@@ -9,7 +9,7 @@ USE topper_sql;
 -- SELECT MIN(age) AS youngest_student FROM students;
 -- SELECT MAX(age) AS oldest_student FROM students;
 -- SELECT MAX(marks) AS highest_marks FROM marks;
--- SELECT MIN(marks) AS lowest_student FROM marks;
+-- SELECT MIN(marks) AS lowest_stude+nt FROM marks;
 -- SELECT AVG(marks) AS avg_marks FROM marks;
 -- SELECT SUM(marks) AS sum_marks FROM marks;
 
@@ -92,3 +92,4 @@ USE topper_sql;
 -- SELECT student_id, AVG(marks)
 -- FROM marks
 -- GROUP BY student_id;
+
