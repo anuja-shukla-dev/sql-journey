@@ -6,8 +6,7 @@ student_id INT AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(100) NOT NULL,
 email VARCHAR(100) UNIQUE NOT NULL,
 age INT CHECK (age>=18) NOT NULL,
-gender ENUM('Male', 'Female', 'Other'),
-course VARCHAR(100) NOT NULL
+gender ENUM('Male', 'Female', 'Other')
 );
 
 -- COURSES
