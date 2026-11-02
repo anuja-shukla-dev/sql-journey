@@ -26,6 +26,7 @@ Instead of immediately moving on to new topics, I am focusing on improving my pr
 |---|---|---:|
 | Day 01 | Joins, Aggregation, GROUP BY, HAVING, Subqueries, DISTINCT | 5 |
 | Day 02 | INNER JOIN, Multiple JOIN Conditions, COUNT, DISTINCT, IN, AVG, GROUP BY, HAVING | 5 |
+| Day 03 | INNER JOIN, LEFT JOIN, IS NULL, Correlated Subqueries, Nested Subqueries, MAX, AVG, GROUP BY, HAVING, COUNT | 5 |
 
 ## Day 01 – Topics Practised
 
@@ -42,6 +43,14 @@ Instead of immediately moving on to new topics, I am focusing on improving my pr
 3. Finding students scoring above 80 using multiple JOIN conditions and DISTINCT.
 4. Filtering teachers by subjects using the IN operator.
 5. Identifying students with average marks above 75 using AVG, GROUP BY, and HAVING.
+
+## Day 03 – Topics Practised
+
+1. Finding the course with the highest average marks using JOIN, AVG, GROUP BY, ORDER BY, and LIMIT.
+2. Finding students without any course enrollments using LEFT JOIN and IS NULL.
+3. Identifying students scoring above their respective course averages using correlated subqueries.
+4. Finding teachers assigned to more than one course using JOIN, COUNT, GROUP BY, and HAVING.
+5. Finding students with the second-highest distinct marks using nested subqueries and MAX.
 
 ## Database Used
 
